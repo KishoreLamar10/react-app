@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Whatsup</h1>
+      <h1>Amazing</h1>
       <Footer />
     </div>
   );

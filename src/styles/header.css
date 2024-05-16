@@ -35,6 +35,7 @@
 .nav-bar-items:hover,
 .nav-bar:active{
     color: white;
+    cursor: pointer;
 }
 
 .title{

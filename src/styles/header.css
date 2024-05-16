@@ -1,11 +1,46 @@
 .header{
-    position: fixed;
-    left: 0;
-    top: 0;
     width: 100%;
-    text-align: center;
-    background-color: darkkhaki;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 8px 16px;
+}
+
+.header > div{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-bar{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 300px);
+    text-align: right;
+}
+.nav-bar-list{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-items{
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color:firebrick;
+}
+
+.nav-bar-items:hover,
+.nav-bar:active{
+    color: white;
+}
+
+.title{
+    border: 5px solid black;
+    color: white;
+    background-color: firebrick;
     padding: 10px;
+    border-radius: 10px;
 }
